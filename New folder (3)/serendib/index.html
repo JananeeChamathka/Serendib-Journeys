@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Serendib Voyages — Cinematic Journeys Across Sri Lanka</title>
+<meta name="description" content="Handcrafted, film-grade journeys across Sri Lanka — Sigiriya, Ella, Yala, Galle Fort. Every itinerary directed like cinema." />
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'><rect width='64' height='64' rx='12' fill='%230B0B0D'/><text x='32' y='44' font-family='Georgia' font-size='36' fill='%23C8A15A' text-anchor='middle'>S</text></svg>" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@1,300;1,400&family=Italiana&family=Manrope:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<script>document.documentElement.classList.add('js')</script>
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+
+<div class="grain" aria-hidden="true"></div>
+<div class="vignette" aria-hidden="true"></div>
+<div class="cursor-dot" aria-hidden="true"></div>
+<div class="cursor-ring" aria-hidden="true"><span class="cursor-label"></span></div>
+
+<div class="letterbox letterbox--top" aria-hidden="true"></div>
+<div class="letterbox letterbox--bottom" aria-hidden="true"></div>
+<div class="transition" aria-hidden="true"></div>
+
+<div class="preloader" aria-hidden="true">
+  <div class="pre-inner">
+    <div class="pre-logo" data-split>SERENDIB</div>
+    <div class="pre-line"><span></span></div>
+    <div class="pre-count">000</div>
+  </div>
+</div>
+
+<header class="nav">
+  <a class="brand" href="#home" data-magnetic="0.25" aria-label="Serendib Voyages home">
+    <svg viewBox="0 0 24 24" width="18" height="18" fill="none" aria-hidden="true"><path d="M12 2l2.6 7.4L22 12l-7.4 2.6L12 22l-2.6-7.4L2 12l7.4-2.6L12 2z" fill="currentColor"/></svg>
+    <span>Serendib</span>
+  </a>
+  <nav class="nav-links" aria-label="Primary">
+    <a class="link-line nav-link" href="#destinations">Destinations</a>
+    <a class="link-line nav-link" href="#experiences">Experiences</a>
+    <a class="link-line nav-link" href="#stories">Stories</a>
+  </nav>
+  <div class="nav-right">
+    <a class="btn btn--ghost btn--sm nav-reserve" href="#contact" data-magnetic="0.3">Reserve</a>
+    <button class="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu" data-magnetic="0.35">
+      <span></span><span></span>
+    </button>
+  </div>
+</header>
+
+<div class="progress" aria-hidden="true"><span></span></div>
+
+<div class="menu-overlay" id="menu" role="dialog" aria-modal="true" aria-label="Site menu">
+  <div class="menu-grid">
+    <ul class="menu-list">
+      <li style="--i:0"><a href="#home" data-preview="0"><em>01</em><span class="mline"><span class="mtext">Home</span></span></a></li>
+      <li style="--i:1"><a href="#destinations" data-preview="1"><em>02</em><span class="mline"><span class="mtext">Destinations</span></span></a></li>
+      <li style="--i:2"><a href="#experiences" data-preview="2"><em>03</em><span class="mline"><span class="mtext">Experiences</span></span></a></li>
+      <li style="--i:3"><a href="#stories" data-preview="3"><em>04</em><span class="mline"><span class="mtext">Stories</span></span></a></li>
+      <li style="--i:4"><a href="#contact" data-preview="4"><em>05</em><span class="mline"><span class="mtext">Contact</span></span></a></li>
+    </ul>
+    <div class="menu-side">
+      <div class="menu-preview" aria-hidden="true">
+        <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=900&auto=format&fit=crop" alt="" data-i="0" loading="lazy" decoding="async" />
+        <img src="https://images.unsplash.com/photo-1566296314736-6eaac1ca0cb9?q=80&w=900&auto=format&fit=crop" alt="" data-i="1" loading="lazy" decoding="async" />
+        <img src="https://images.unsplash.com/photo-1602002418082-a4443e081dd1?q=80&w=900&auto=format&fit=crop" alt="" data-i="2" loading="lazy" decoding="async" />
+        <img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=900&auto=format&fit=crop" alt="" data-i="3" loading="lazy" decoding="async" />
+        <img src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?q=80&w=900&auto=format&fit=crop" alt="" data-i="4" loading="lazy" decoding="async" />
+      </div>
+      <p class="menu-note">Colombo · Dubai · London<br /><a class="link-line" href="mailto:hello@serendib.lk">hello@serendib.lk</a></p>
+    </div>
+  </div>
+</div>
+
+<main id="main">
+
+  <section class="hero" id="home">
+    <div class="hero-bg" data-imgbox>
+      <img src="https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?q=80&w=2400&auto=format&fit=crop" alt="Mist drifting over Sri Lankan highlands at dawn" fetchpriority="high" decoding="async" />
+      <div class="hero-shade"></div>
+    </div>
+    <div class="hero-content container">
+      <p class="eyebrow hero-eyebrow">Handcrafted Journeys · Sri Lanka · Est. MMXIV</p>
+      <h1 class="hero-title" aria-label="Serendib">SERENDIB</h1>
+      <p class="hero-sub">The island that taught the world the meaning of <em>serendipity</em> — composed, frame by frame, for you.</p>
+      <div class="hero-actions">
+        <a class="btn btn--solid" href="#destinations" data-magnetic="0.35">
+          <span class="btn-label">Begin Your Journey</span>
+          <svg viewBox="0 0 24 24" width="15" height="15" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        </a>
+        <button class="btn btn--ghost play-btn" type="button" data-magnetic="0.35">
+          <svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg>
+          <span class="btn-label">Watch the Film</span>
+        </button>
+      </div>
+    </div>
+    <div class="hero-side" aria-hidden="true"><span>Scroll</span><i></i></div>
+    <div class="hero-coords" aria-hidden="true">6.9271° N&nbsp;&nbsp;·&nbsp;&nbsp;79.8612° E</div>
+  </section>
+
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <div class="marquee-row">
+        <span>Sigiriya</span><b>✦</b><span>Ella</span><b>✦</b><span>Mirissa</span><b>✦</b><span>Kandy</span><b>✦</b><span>Yala</span><b>✦</b><span>Galle Fort</span><b>✦</b><span>Nuwara Eliya</span><b>✦</b><span>Arugam Bay</span><b>✦</b>
+      </div>
+      <div class="marquee-row">
+        <span>Sigiriya</span><b>✦</b><span>Ella</span><b>✦</b><span>Mirissa</span><b>✦</b><span>Kandy</span><b>✦</b><span>Yala</span><b>✦</b><span>Galle Fort</span><b>✦</b><span>Nuwara Eliya</span><b>✦</b><span>Arugam Bay</span><b>✦</b>
+      </div>
+    </div>
+  </div>
+
+  <section class="about section" id="about">
+    <div class="container about-grid">
+      <div class="about-copy">
+        <p class="eyebrow" data-reveal>The Studio</p>
+        <h2 class="h2" data-reveal>We don’t sell tours.<br /><em>We direct journeys.</em></h2>
+        <p class="word-reveal">Every Serendib itinerary is storyboarded like a film — dawn light on Sigiriya’s frescoes, steam curling over a Nuwara Eliya tea bench, the blue train carving through cloud forest, a leopard’s silhouette against amber grass. You bring the curiosity. We handle every frame in between.</p>
+        <div class="stats" data-reveal-group>
+          <div class="stat"><strong data-count="12">0</strong><span>Years directing</span></div>
+          <div class="stat"><strong data-count="480" data-suffix="+">0</strong><span>Journeys composed</span></div>
+          <div class="stat"><strong data-count="27">0</strong><span>Resident experts</span></div>
+          <div class="stat"><strong data-count="98" data-suffix="%">0</strong><span>Return or refer</span></div>
+        </div>
+      </div>
+      <div class="about-media" aria-hidden="false">
+        <figure class="about-img about-img--a" data-parallax="-10" data-reveal><img src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?q=80&w=1200&auto=format&fit=crop" alt="Golden highlands of Sri Lanka" loading="lazy" decoding="async" /></figure>
+        <figure class="about-img about-img--b" data-parallax="14" data-reveal data-reveal-delay="0.15"><img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1200&auto=format&fit=crop" alt="Sun rays through rainforest canopy" loading="lazy" decoding="async" /></figure>
+        <span class="about-stamp" aria-hidden="true">Island of Stories ✦ Since 2014</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="destinations section" id="destinations">
+    <div class="container">
+      <header class="section-head">
+        <div>
+          <p class="eyebrow" data-reveal>Chapters</p>
+          <h2 class="h2" data-reveal>Six scenes, one island</h2>
+        </div>
+        <p class="section-note" data-reveal>Each destination is filmed on recce before we ever bring a guest. What you read below has been walked, tasted and timed to the light.</p>
+      </header>
+
+      <article class="dest-row">
+        <a class="dest-media" href="#contact" data-cursor="view" data-tilt aria-label="Discover Sigiriya">
+          <span class="dest-num" aria-hidden="true">01</span>
+          <span class="dest-zoom"><img src="https://images.unsplash.com/photo-1566296314736-6eaac1ca0cb9?q=80&w=1400&auto=format&fit=crop" alt="Sigiriya Rock rising over the jungle canopy" loading="lazy" decoding="async" /></span>
+          <span class="glare" aria-hidden="true"></span>
+        </a>
+        <div class="dest-info">
+          <p class="dest-loc">Matale · Central Province</p>
+          <h3>Sigiriya <em>— The Lion’s Staircase</em></h3>
+          <p>Climb through mirror-wall poetry to a sky palace guarded by nothing but wind and fifteen hundred years of awe.</p>
+          <ul class="tags"><li>Ancient Cities</li><li>Sunrise Ascent</li><li>Frescoes</li></ul>
+          <span class="link-arrow">Discover scene<svg viewBox="0 0 24 24" width="14" height="14" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </article>
+
+      <article class="dest-row dest-row--rev">
+        <a class="dest-media" href="#contact" data-cursor="view" data-tilt aria-label="Discover Ella">
+          <span class="dest-num" aria-hidden="true">02</span>
+          <span class="dest-zoom"><img src="https://images.unsplash.com/photo-1602002418082-a4443e081dd1?q=80&w=1400&auto=format&fit=crop" alt="The blue train crossing Nine Arch Bridge in Ella" loading="lazy" decoding="async" /></span>
+          <span class="glare" aria-hidden="true"></span>
+        </a>
+        <div class="dest-info">
+          <p class="dest-loc">Uva Highlands</p>
+          <h3>Ella <em>— Cloud Country</em></h3>
+          <p>The blue train hums into mist; Nine Arch Bridge appears like a viaduct drawn by hand. Stay for pepper-infused hillside dinners.</p>
+          <ul class="tags"><li>Nine Arch Bridge</li><li>Little Adam’s Peak</li><li>Tea Trails</li></ul>
+          <span class="link-arrow">Discover scene<svg viewBox="0 0 24 24" width="14" height="14" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </article>
+
+      <article class="dest-row">
+        <a class="dest-media" href="#contact" data-cursor="view" data-tilt aria-label="Discover Mirissa">
+          <span class="dest-num" aria-hidden="true">03</span>
+          <span class="dest-zoom"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?q=80&w=1400&auto=format&fit=crop" alt="Turquoise tropical beach with palms at Mirissa" loading="lazy" decoding="async" /></span>
+          <span class="glare" aria-hidden="true"></span>
+        </a>
+        <div class="dest-info">
+          <p class="dest-loc">Southern Coast</p>
+          <h3>Mirissa <em>— Whale Dawn</em></h3>
+          <p>First light on coconut palms, blue whales offshore by breakfast, your footprint the only one on the sand.</p>
+          <ul class="tags"><li>Blue Whales</li><li>Secret Beach</li><li>Surf</li></ul>
+          <span class="link-arrow">Discover scene<svg viewBox="0 0 24 24" width="14" height="14" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </article>
+
+      <article class="dest-row dest-row--rev">
+        <a class="dest-media" href="#contact" data-cursor="view" data-tilt aria-label="Discover Kandy">
+          <span class="dest-num" aria-hidden="true">04</span>
+          <span class="dest-zoom"><img src="https://images.unsplash.com/photo-1501785888041-af3ef285b470?q=80&w=1400&auto=format&fit=crop" alt="Amber sunset over the lake hills near Kandy" loading="lazy" decoding="async" /></span>
+          <span class="glare" aria-hidden="true"></span>
+        </a>
+        <div class="dest-info">
+          <p class="dest-loc">Central Province</p>
+          <h3>Kandy <em>— The Sacred Hill Capital</em></h3>
+          <p>Temple bells over the lake, Kandyan drums at dusk, and the tooth relic’s quiet procession of candlelight.</p>
+          <ul class="tags"><li>Temple of the Tooth</li><li>Lake Circuit</li><li>Perahera</li></ul>
+          <span class="link-arrow">Discover scene<svg viewBox="0 0 24 24" width="14" height="14" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </article>
+
+      <article class="dest-row">
+        <a class="dest-media" href="#contact" data-cursor="view" data-tilt aria-label="Discover Yala">
+          <span class="dest-num" aria-hidden="true">05</span>
+          <span class="dest-zoom"><img src="https://images.unsplash.com/photo-1547471080-7cc2caa01a7e?q=80&w=1400&auto=format&fit=crop" alt="Elephants crossing golden savanna in Yala" loading="lazy" decoding="async" /></span>
+          <span class="glare" aria-hidden="true"></span>
+        </a>
+        <div class="dest-info">
+          <p class="dest-loc">Southeast Wilderness</p>
+          <h3>Yala <em>— Leopard Country</em></h3>
+          <p>The world’s densest leopard theatre. Our trackers read paw-prints like morning headlines.</p>
+          <ul class="tags"><li>Private Safaris</li><li>Leopards</li><li>Birdlife</li></ul>
+          <span class="link-arrow">Discover scene<svg viewBox="0 0 24 24" width="14" height="14" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </article>
+
+      <article class="dest-row dest-row--rev">
+        <a class="dest-media" href="#contact" data-cursor="view" data-tilt aria-label="Discover Galle Fort">
+          <span class="dest-num" aria-hidden="true">06</span>
+          <span class="dest-zoom"><img src="https://images.unsplash.com/photo-1512100356356-de1b84283e18?q=80&w=1400&auto=format&fit=crop" alt="Palm-lined coastal road near Galle Fort" loading="lazy" decoding="async" /></span>
+          <span class="glare" aria-hidden="true"></span>
+        </a>
+        <div class="dest-info">
+          <p class="dest-loc">Southern Coast</p>
+          <h3>Galle Fort <em>— The Dutch Hour</em></h3>
+          <p>Rampart walks at golden hour, linen shops, coral-stone lanes where time forgot to leave.</p>
+          <ul class="tags"><li>Ramparts</li><li>Boutique Cafés</li><li>Architecture</li></ul>
+          <span class="link-arrow">Discover scene<svg viewBox="0 0 24 24" width="14" height="14" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <section class="experiences" id="experiences">
+    <div class="exp-pin">
+      <header class="container exp-head">
+        <div>
+          <p class="eyebrow">Signature</p>
+          <h2 class="h2">Directed experiences</h2>
+        </div>
+        <div class="exp-progress" aria-hidden="true"><span class="exp-bar"></span></div>
+      </header>
+      <div class="exp-track">
+        <article class="exp-card" data-tilt>
+          <span class="exp-num">01</span>
+          <figure class="exp-media" data-imgbox><img src="https://images.unsplash.com/photo-1474487548417-781cb71495f3?q=80&w=1000&auto=format&fit=crop" alt="Railway line winding through green hills" loading="lazy" decoding="async" /></figure>
+          <h3>The Blue Train</h3>
+          <p>Kandy → Ella, seven hours of cinema through tea country. Reserved observation car, chai at altitude.</p>
+        </article>
+        <article class="exp-card" data-tilt>
+          <span class="exp-num">02</span>
+          <figure class="exp-media" data-imgbox><img src="https://images.unsplash.com/photo-1549366021-9f761d450615?q=80&w=1000&auto=format&fit=crop" alt="Wild elephants at a watering hole" loading="lazy" decoding="async" /></figure>
+          <h3>Leopard Country</h3>
+          <p>Yala at golden hour with trackers who read the bush like scripture. Private vehicle, no convoys.</p>
+        </article>
+        <article class="exp-card" data-tilt>
+          <span class="exp-num">03</span>
+          <figure class="exp-media" data-imgbox><img src="https://images.unsplash.com/photo-1441974231531-c6227db76b6e?q=80&w=1000&auto=format&fit=crop" alt="Morning light through estate greenery" loading="lazy" decoding="async" /></figure>
+          <h3>First Flush</h3>
+          <p>Pluck, roll and taste at a working estate with fourth-generation masters. Breakfast among the rows.</p>
+        </article>
+        <article class="exp-card" data-tilt>
+          <span class="exp-num">04</span>
+          <figure class="exp-media" data-imgbox><img src="https://images.unsplash.com/photo-1505142468610-359e7d316be0?q=80&w=1000&auto=format&fit=crop" alt="Aerial view of turquoise ocean shallows" loading="lazy" decoding="async" /></figure>
+          <h3>Ocean Rituals</h3>
+          <p>Sunrise beside stilt fishermen; blue-whale waters off Mirissa by noon. Champagne on the sandbar.</p>
+        </article>
+        <article class="exp-card" data-tilt>
+          <span class="exp-num">05</span>
+          <figure class="exp-media" data-imgbox><img src="https://images.unsplash.com/photo-1544161515-4ab6ce6db874?q=80&w=1000&auto=format&fit=crop" alt="Calm spa setting with folded towels and orchids" loading="lazy" decoding="async" /></figure>
+          <h3>The Ayurveda Interlude</h3>
+          <p>Three nights of prescribed stillness — oils, herbs and silence, written by resident physicians.</p>
+        </article>
+        <article class="exp-card exp-card--cta">
+          <p class="exp-cta-line">Compose your own chapter</p>
+          <a class="btn btn--outline" href="#contact" data-magnetic="0.3"><span class="btn-label">Enquire</span>
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <section class="testimonials section" id="stories">
+    <div class="container tsl-wrap">
+      <p class="eyebrow" data-reveal>Guest Stories</p>
+      <span class="tsl-mark" aria-hidden="true">“</span>
+      <div class="tsl-quote" aria-live="polite">
+        <blockquote id="tsl-text">It didn’t feel like a holiday. It felt like the best film we never wanted to end.</blockquote>
+        <cite id="tsl-cite">Charlotte &amp; Amir — London · 14-day Grand Circuit</cite>
+      </div>
+      <div class="tsl-nav">
+        <button class="tsl-btn" id="tsl-prev" aria-label="Previous story" data-magnetic="0.4"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" aria-hidden="true"><path d="M19 12H5m6 6l-6-6 6-6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+        <div class="tsl-dots" id="tsl-dots" role="tablist" aria-label="Choose story"></div>
+        <button class="tsl-btn" id="tsl-next" aria-label="Next story" data-magnetic="0.4"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+      </div>
+    </div>
+  </section>
+
+  <section class="cta section" id="contact">
+    <div class="cta-bg" data-imgbox>
+      <img src="https://images.unsplash.com/photo-1419242902214-272b3f66ee7a?q=80&w=2000&auto=format&fit=crop" alt="" aria-hidden="true" loading="lazy" decoding="async" />
+      <div class="cta-shade"></div>
+    </div>
+    <div class="cta-glow" aria-hidden="true"></div>
+    <div class="container cta-inner">
+      <p class="eyebrow" data-reveal>Begin</p>
+      <h2 class="h2 cta-title" data-reveal>Tell us the story<br /><em>you want to live.</em></h2>
+      <form class="cta-form" id="inquiry" novalidate data-reveal-group>
+        <div class="field">
+          <label for="f-name">Your name</label>
+          <input id="f-name" name="name" type="text" autocomplete="name" placeholder="Amara Perera" required />
+        </div>
+        <div class="field">
+          <label for="f-email">Email</label>
+          <input id="f-email" name="email" type="email" autocomplete="email" placeholder="you@somewhere.com" required />
+        </div>
+        <div class="field">
+          <label for="f-season">Season</label>
+          <select id="f-season" name="season">
+            <option value="dec-mar">December – March · South &amp; West</option>
+            <option value="apr-sep">April – September · East Coast</option>
+            <option value="flexible">I’m flexible — surprise me</option>
+          </select>
+        </div>
+        <div class="field">
+          <label for="f-size">Travelling party</label>
+          <select id="f-size" name="party">
+            <option>Just us two</option>
+            <option>Family (3–5)</option>
+            <option>Small circle (6–10)</option>
+            <option>A private buyout</option>
+          </select>
+        </div>
+        <div class="field field--full">
+          <label for="f-msg">What should this film feel like?</label>
+          <textarea id="f-msg" name="message" rows="4" placeholder="Slow mornings, wild afternoons, a train window seat…"></textarea>
+        </div>
+        <div class="field field--full form-foot">
+          <p class="form-alt">Prefer words? <a class="link-line" href="mailto:hello@serendib.lk">hello@serendib.lk</a></p>
+          <button class="btn btn--solid btn--lg" type="submit" data-magnetic="0.3">
+            <span class="btn-label">Begin the Conversation</span>
+            <svg viewBox="0 0 24 24" width="15" height="15" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6l6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg>
+          </button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <div class="footer-giant" aria-hidden="true">SERENDIB</div>
+  <div class="container footer-grid">
+    <div class="footer-col footer-col--wide">
+      <p class="footer-tag">Journeys composed like cinema,<br />on the island of serendipity.</p>
+      <div class="socials">
+        <a class="social-link link-line" href="#" rel="noopener">Instagram</a>
+        <a class="social-link link-line" href="#" rel="noopener">Pinterest</a>
+        <a class="social-link link-line" href="#" rel="noopener">Vimeo</a>
+      </div>
+    </div>
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <a class="link-line f-link" href="#destinations">Destinations</a>
+      <a class="link-line f-link" href="#experiences">Experiences</a>
+      <a class="link-line f-link" href="#stories">Stories</a>
+      <a class="link-line f-link" href="#contact">Contact</a>
+    </div>
+    <div class="footer-col">
+      <h4>Studio</h4>
+      <p class="f-text">36 Ward Place,<br />Colombo 07, Sri Lanka</p>
+      <a class="link-line f-link" href="mailto:hello@serendib.lk">hello@serendib.lk</a>
+      <a class="link-line f-link" href="tel:+94771234567">+94 77 123 4567</a>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>© <span id="year">2026</span> Serendib Voyages — crafted with intention.</p>
+    <p class="clock">Colombo · <span id="clock">00:00:00</span></p>
+    <a class="link-line top-link" href="#home">Back to top ↑</a>
+  </div>
+</footer>
+
+<div class="toast" role="status" aria-live="polite"><span class="toast-dot"></span><span class="toast-msg"></span></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" defer></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" defer></script>
+<script src="https://unpkg.com/lenis@1.1.14/dist/lenis.min.js" defer></script>
+<script src="js/main.js" defer></script>
+</body>
+</html>
